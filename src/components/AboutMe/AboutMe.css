@@ -1,16 +1,58 @@
 #aboutMainContainer{
-   border: 2px solid red;
-
+  
    display: flex;
    padding: 20px;
+   color: white;
 }
 
 #aboutLeft{
-    border: 2px solid greenyellow;
-    flex: 75%;
+   
+    flex: 60%;
 }
 
 #aboutRight{
-    border: 2px solid orange;
-    flex: 25%;
+    
+    flex: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#aboutImg{
+ display: flex;
+ justify-content: center;
+align-items: flex-end;
+ height: 54vh;
+    width: 50vh;
+    border-radius: 8px;
+    backdrop-filter: blur(2px);
+    backdrop-color : rgba(255,255,255,0.5);
+    box-shadow: 0 1px 12px rgba(255, 255, 255, 0.25);
+    border: 1px solid rgba(255 ,255, 255 , 0.3);
+}
+
+#aboutMyImage{
+
+height: 50vh;
+width: 60vh;
+}
+
+#aboutHeading1{
+  font-size: 45px;
+  padding-top: 50px;
+  padding-left: 50px;
+  font-family: "Russo One", sans-serif;
+}
+
+#aboutHeading2{
+    font-size: 25px;
+
+    padding-left: 50px;
+}
+
+#skillsHeading{
+    font-family: "Russo One", sans-serif;
+    font-size: 45px;
+    padding-left: 50px;
+    margin-top: 20px;
 }
