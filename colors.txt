@@ -1,0 +1,12 @@
+Theme 1
+white : #ffffff
+purple: #5840ba
+green : #a4db74
+light purple : #705bc4
+black : 
+
+
+theme 2 :
+black : 
+orange : #fe6313
+white :

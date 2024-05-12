@@ -1,0 +1,135 @@
+#mainContainer {
+  display: flex;
+ 
+}
+
+#rightDiv {
+
+  flex: 25%;
+}
+
+#centerDiv {
+
+  flex: 50%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#leftDiv {
+ 
+  flex: 25%;
+}
+
+#heading1{
+    color: white;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+#heading2{
+    color: white;
+    font-size: 30px;
+    font-size:70px;
+    font-family: "Russo One", sans-serif;
+    height: 70px;
+
+}
+
+#heading3{
+    color: rgb(249 115 22);
+    font-size:80px;
+    font-family: "Russo One", sans-serif;
+    height: 25px ;
+}
+
+#btnContainer{
+display: flex;
+gap: 15px;
+margin-top: -60px;
+}
+
+.btn{
+
+border: 2px solid white;
+height: 70px;
+width: 140px;
+border-radius: 20px;
+font-size: 20px;
+font-weight: bolder;
+}
+
+#portfolioBtn{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+#hireBtn{
+    background-color: white;
+    color: black;
+}
+
+#portfolioBtn:hover{
+    background-color: rgb(249 115 22);
+    color: black;
+}
+
+#hireBtn:hover{
+    background-color: rgb(249 115 22);
+}
+
+/* animation1  */
+
+
+
+.marquee {
+  position: relative;
+  width: 100vw;
+  max-width: 100%;
+  height: 40px;
+  overflow-x: hidden;
+  background-color: white;
+  color: black;
+  font-size: 25px;
+font-weight: bold;
+margin-top: 7px;
+
+
+}
+
+.track {
+  position: absolute;
+  white-space: nowrap;
+  will-change: transform;
+  animation: marquee 32s linear infinite;
+}
+
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+  #mainContainer {
+    flex-direction: column;
+    margin-top: 35px;
+    
+  }
+
+  #heading3{
+        font-size: 3rem;
+  }
+}
+
