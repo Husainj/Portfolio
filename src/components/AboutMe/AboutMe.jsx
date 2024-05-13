@@ -4,9 +4,21 @@ import backImg from '../../assets/Background.png'
 import aboutImg from '../AboutMe/aboutImg.png'
 
 import Skills from '../Skills/Skills'
-
-import images from '../../assets';
-
+import html from '../../assets/html.svg'
+import c from '../../assets/c.svg'
+import cpp from '../../assets/cpp.svg'
+import css from '../../assets/css.svg'
+import js from '../../assets/js.svg'
+import bootstrap from '../../assets/bootstrap.svg'
+import express from '../../assets/express.png'
+import git from '../../assets/git.svg'
+import mysql from '../../assets/mysql.svg'
+import netlify from '../../assets/netlify.svg'
+import nodejs from '../../assets/node-js.svg'
+import python from '../../assets/python.svg'
+import react from '../../assets/react.svg'
+import tailwind from '../../assets/tailwind.svg'
+import vercel from '../../assets/vercel.svg'
 function AboutMe() {
   return (
    <div id='aboutMainContainer' className='w-full h-screen' style={{backgroundImage: `url(${backImg})`}}>
@@ -19,25 +31,26 @@ function AboutMe() {
         <button id='aboutBtn'>Let's Connect!</button>
         <h1 id='skillsHeading'> Tech Stack : </h1>
         <section id='skillSection'>
-        <Skills imageSrc={images.html} skillText="HTML"/>
-        <Skills imageSrc={images.css} skillText="CSS"/>
-        <Skills skillText="JS"/>
-        <Skills skillText="React"/>
-        <Skills skillText="node.JS"/>
-        <Skills skillText="express.js"/>
-        <Skills skillText="Git & Github"/>
-        <Skills skillText="C"/>
-        <Skills skillText="C++"/>
-        <Skills skillText="python"/>
-        <Skills skillText="Vercel"/>
-        <Skills skillText="Netlify"/>
-        <Skills skillText="Tailwind CSS"/>
-        <Skills skillText="Bootstrap"/>
+        <Skills imageSrc={html} skillText="HTML"/>
+        <Skills imageSrc={css} skillText="CSS"/>
+        <Skills imageSrc={js} skillText="JS"/>
+        <Skills imageSrc={react} skillText="React"/>
+        <Skills imageSrc={nodejs} skillText="node.JS"/>
+        <Skills imageSrc={express} skillText="express.js"/>
+        <Skills imageSrc={mysql} skillText="mySQL"/>
+        <Skills imageSrc={git} skillText="Git & Github"/>
+        <Skills imageSrc={c} skillText="C"/>
+        <Skills imageSrc={cpp} skillText="C++"/>
+        <Skills imageSrc={python} skillText="python"/>
+        <Skills imageSrc={vercel} skillText="Vercel"/>
+        <Skills imageSrc={netlify} skillText="Netlify"/>
+        <Skills imageSrc={tailwind} skillText="Tailwind CSS"/>
+        <Skills imageSrc={bootstrap} skillText="Bootstrap"/>
      
         </section>
     </div>
     <div id='aboutRight'>
-        <div id='aboutImg' class="tiltcard" data-tilt data-tilt-scale="1.1"> 
+        <div id='aboutImg'>
             <img id='aboutMyImage' src={aboutImg}  />
         </div>
     </div>
