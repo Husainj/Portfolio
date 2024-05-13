@@ -1,0 +1,29 @@
+#skillContainer{
+  border: 1px solid white;
+    height: 50px;
+    width: fit-content;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2px;
+}
+
+#skillImg{
+height: 40px;
+width: 40px;
+
+
+}
+
+#skillInfo{
+    padding: 8px;
+    height: 40px;
+    width: fit-content;
+  
+}
+
+#skillContainer:hover{
+    background-color:rgb(91, 89, 87);
+ 
+}

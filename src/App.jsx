@@ -14,7 +14,6 @@ function App() {
  <div className='w-full h-screen' style={{backgroundImage: `url(${backImg})`}}>
  <Navbar/>
  <Homepage/>
-
  <AboutMe />
  </div>
 
