@@ -15,7 +15,7 @@ function Homepage() {
         <div id="mainContainer"> 
         <div id="leftDiv"></div>
         <div id="centerDiv">
-          <div id="heading1">-Hello and HI</div>
+          <div id="heading1">-Hello</div>
           <div id="heading2">I'm Husain</div>
           <div id="heading3">Web Developer</div>
           <div id="heroImg">
