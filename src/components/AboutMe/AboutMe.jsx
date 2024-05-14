@@ -20,7 +20,14 @@ import react from '../../assets/react.svg'
 import tailwind from '../../assets/tailwind.svg'
 import vercel from '../../assets/vercel.svg'
 function AboutMe() {
+
+  const handleClick = () => {
+    window.location.href = "#contactHeading"; // Replace "https://example.com" with the URL you want to go to
+  };
+
+
   return (
+    <div>
    <div id='aboutMainContainer' className='w-full h-screen' style={{backgroundImage: `url(${backImg})`}}>
 
     <div id='aboutLeft'>
@@ -28,7 +35,7 @@ function AboutMe() {
         <h2 id='aboutHeading2'>
         Hey there! I'm your friendly neighborhood web wizard. I sprinkle creativity into every line of code to craft captivating digital experiences. Let's collaborate and turn your ideas into digital masterpieces
         </h2>
-        <button id='aboutBtn'>Let's Connect!</button>
+        <button onClick={handleClick} id='aboutBtn'>Let's Connect!</button>
         <h1 id='skillsHeading'> Tech Stack : </h1>
         <section id='skillSection'>
         <Skills imageSrc={html} skillText="HTML"/>
@@ -54,8 +61,13 @@ function AboutMe() {
             <img id='aboutMyImage' src={aboutImg}  />
         </div>
     </div>
+   
 
 
+   </div>
+   <div id='aboutShape'>
+
+</div>
    </div>
   )
 }

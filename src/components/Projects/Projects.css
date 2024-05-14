@@ -1,0 +1,76 @@
+/* ProjectSection.css */
+.project-section {
+    text-align: center;
+    padding: 50px 20px; /* Added padding to improve responsiveness */
+  }
+  
+  .projects-container {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .project-card {
+    width: calc(50% - 40px); /* Adjusted width to fit only 2 cards per row */
+    max-width: 400px; /* Set maximum width */
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: black;
+    box-shadow: 0px 0px 8px 3px rgb(7 7 7);
+    transition: all 0.3s ease-in-out;
+  
+  }
+  
+  .project-card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .project-card img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .project-info h3 {
+    margin: 0 0 10px;
+    font-size: 20px;
+    color: rgb(249 115 22);
+    font-family: "Russo One", sans-serif;
+  }
+  
+  .project-info p {
+    margin: 0 0 20px;
+    font-size: 16px;
+    color: white;
+  }
+  
+  .project-info a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(249 115 22);
+    color: #ffffff;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .project-info a:hover {
+    background-color: #ffffff;
+    color: black;
+  }
+  
+
+  #projectsHeading{
+    font-family: "Russo One", sans-serif;
+    font-size: 45px;
+  }
+
+  /* Media Query for Responsive Design */
+  @media (max-width: 768px) {
+    .project-card {
+      width: calc(100% - 40px); /* Adjusted width for smaller screens */
+    }
+  }
+  

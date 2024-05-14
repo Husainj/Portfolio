@@ -3,6 +3,12 @@ import heroImg from "../Homepage/MyPicture.png";
 import "../Homepage/Homepage.css";
 
 function Homepage() {
+
+  const handleClick = () => {
+    window.location.href = "#contactHeading"; // Replace "https://example.com" with the URL you want to go to
+  };
+
+
   return (
     <>
 
@@ -16,10 +22,10 @@ function Homepage() {
             <img src={heroImg} />
           </div>
           <div id="btnContainer">
-            <button class="btn" id="portfolioBtn">
+            <a href="#projectsHeading" class="btn" id="portfolioBtn">
               Portfolio
-            </button>
-            <button class="btn" id="hireBtn">
+            </a>
+            <button onClick={handleClick} class="btn" id="hireBtn">
               Hire Me!
             </button>
           </div>

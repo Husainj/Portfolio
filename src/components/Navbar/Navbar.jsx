@@ -48,16 +48,16 @@ function Navbar() {
           <div className="bg-black border border-white rounded-md shadow-md   mr-5">
             <ul className="text-white text-lg">
               <li className="py-2 px-4 border-white border-b hover:bg-orange-500 hover:transition-colors hover:duration-300 cursor-pointer">
-                Home
+              <a href="#mainContainer">Home</a> 
               </li>
               <li className="py-2 px-4 border-white border-b hover:bg-orange-500 hover:transition-colors hover:duration-300 cursor-pointer">
-                About Me
+              <a href="#aboutMainContainer">About Me</a> 
               </li>
               <li className="py-2 px-4 border-white border-b hover:bg-orange-500 hover:transition-colors hover:duration-300 cursor-pointer">
-                Portfolio
+               <a href="#projectsHeading"> Portfolio</a>
               </li>
               <li className="py-2 px-4 border-white hover:bg-orange-500 hover:transition-colors hover:duration-300 cursor-pointer">
-                Services
+                <a href="#contactHeading">Contact</a>
               </li>
             </ul>
           </div>
@@ -68,17 +68,17 @@ function Navbar() {
       <nav className="hidden md:inline-block border-white border-2 mt-3 rounded-xl text-center backdrop-blur-sm">
         <ul className="text-white text-lg flex flex-row gap-7 justify-center">
           <li className="hover:bg-orange-500 hover:rounded-l-xl hover:transition-colors hover:duration-300 h-7 w-17 px-3 cursor-pointer">
-            Home
+           <a href="#mainContainer">Home</a> 
           </li>
           <li className="hover:bg-orange-500 hover:transition-colors hover:duration-300 h-7 w-17 px-3 cursor-pointer">
-          About Me
+          <a href="#aboutMainContainer">About Me</a> 
 
           </li>
           <li className="hover:bg-orange-500 hover:transition-colors hover:duration-300 h-7 w-17 px-2 cursor-pointer">
-          Portfolio
+          <a href="#projectsHeading"> Portfolio</a>
           </li>
           <li className="hover:bg-orange-500 hover:rounded-r-xl hover:transition-colors hover:duration-300 h-7 w-17 px-3 cursor-pointer">
-          Services
+          <a href="#contactHeading">Contact</a>
           </li>
         </ul>
       </nav>
