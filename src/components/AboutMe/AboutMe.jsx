@@ -43,7 +43,7 @@ function AboutMe() {
         <Skills imageSrc={js} skillText="JS"/>
         <Skills imageSrc={react} skillText="React"/>
         <Skills imageSrc={nodejs} skillText="node.JS"/>
-        <Skills imageSrc={express} skillText="express.js"/>
+        {/* <Skills imageSrc={express} skillText="express.js"/> */}
         <Skills imageSrc={mysql} skillText="mySQL"/>
         <Skills imageSrc={git} skillText="Git & Github"/>
         <Skills imageSrc={c} skillText="C"/>

@@ -11,7 +11,7 @@ function Navbar() {
   return (
     <div className="flex justify-center relative">
       {/* Mobile Menu Container */}
-      <div className="md:hidden">
+      <div className="md:hidden relative">
         {/* Mobile Menu Button */}
         <button 
           onClick={toggleMenu}
@@ -39,9 +39,9 @@ function Navbar() {
         </button>
 
         {/* Mobile Dropdown Menu */}
-        {isMenuOpen && (
-          <div className="bg-black border border-white rounded-md shadow-md absolute right-0 mt-10 mr-5 w-48">
-            <ul className="text-white text-lg">
+        <div className={`absolute top-10 right-0 ${isMenuOpen ? 'block' : 'hidden'}`}>
+          <div className="bg-black border border-white rounded-md shadow-md w-48">
+            <ul className="text-white text-lg mt-5">
               <li className="py-2 px-4 border-white border-b hover:bg-orange-500 hover:transition-colors hover:duration-300 cursor-pointer">
                 <a href="#mainContainer">Home</a> 
               </li>
@@ -56,7 +56,7 @@ function Navbar() {
               </li>
             </ul>
           </div>
-        )}
+        </div>
       </div>
 
       {/* Desktop Navbar */}
