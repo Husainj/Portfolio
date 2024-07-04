@@ -8,6 +8,8 @@ function Homepage() {
     window.location.href = "#contactHeading"; // Replace "https://example.com" with the URL you want to go to
   };
 
+ 
+ 
 
   return (
     <>
@@ -22,8 +24,8 @@ function Homepage() {
             <img src={heroImg} />
           </div>
           <div id="btnContainer">
-            <a href="#projectsHeading" class="btn" id="portfolioBtn">
-              Portfolio
+            <a class="btn" id="portfolioBtn" href="https://drive.google.com/file/d/1MA-R4apj2RwDPl9cb1lu0Zq5orfUTLGG/view?usp=sharing">
+              Resume
             </a>
             <button onClick={handleClick} class="btn" id="hireBtn">
               Hire Me!
