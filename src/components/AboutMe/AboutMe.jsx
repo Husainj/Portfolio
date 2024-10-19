@@ -10,7 +10,7 @@ import cpp from '../../assets/cpp.svg'
 import css from '../../assets/css.svg'
 import js from '../../assets/js.svg'
 import bootstrap from '../../assets/bootstrap.svg'
-import express from '../../assets/express.png'
+import express from '../../assets/express.svg'
 import git from '../../assets/git.svg'
 import mysql from '../../assets/mysql.svg'
 import netlify from '../../assets/netlify.svg'
@@ -19,6 +19,8 @@ import python from '../../assets/python.svg'
 import react from '../../assets/react.svg'
 import tailwind from '../../assets/tailwind.svg'
 import vercel from '../../assets/vercel.svg'
+import java from '../../assets/java.svg'
+import mongo from '../../assets/mongodb.svg'
 function AboutMe() {
 
   const handleClick = () => {
@@ -43,7 +45,9 @@ function AboutMe() {
         <Skills imageSrc={js} skillText="JS"/>
         <Skills imageSrc={react} skillText="React"/>
         <Skills imageSrc={nodejs} skillText="node.JS"/>
-        {/* <Skills imageSrc={express} skillText="express.js"/> */}
+        <Skills imageSrc={express} skillText="express.js"/>
+        <Skills imageSrc={mongo} skillText="MongoDB"/>
+        <Skills imageSrc={java} skillText="Java"/>
         <Skills imageSrc={mysql} skillText="mySQL"/>
         <Skills imageSrc={git} skillText="Git & Github"/>
         <Skills imageSrc={c} skillText="C"/>

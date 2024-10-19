@@ -19,12 +19,12 @@ function Homepage() {
         <div id="centerDiv">
           <div id="heading1">-Hello</div>
           <div id="heading2">I'm Husain</div>
-          <div id="heading3">Web Developer</div>
+          <div id="heading3">Full Stack Dev</div>
           <div id="heroImg">
             <img src={heroImg} />
           </div>
           <div id="btnContainer">
-            <a class="btn" id="portfolioBtn" href="https://drive.google.com/file/d/1MA-R4apj2RwDPl9cb1lu0Zq5orfUTLGG/view?usp=sharing">
+            <a class="btn" id="portfolioBtn" href="https://drive.google.com/file/d/17cMBrVOuFXPnIGruQwisW_Kf1EcQq73H/view?usp=sharing">
               Resume
             </a>
             <button onClick={handleClick} class="btn" id="hireBtn">
