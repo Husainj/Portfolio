@@ -4,8 +4,14 @@ import '../Projects/Projects.css';
 import ai from '../../assets/AI-code.jpeg'
 import newyear from '../../assets/newyear.jpeg'
 import pass from '../../assets/RandomPass.jpeg'
-
+import streamify from '../../assets/streamify.jpeg'
 const projects = [
+  {
+    title: 'Streamify',
+    description: 'A Full-Featured Video Streaming Platform Built on MERN Stack',
+    image:streamify,
+    link: 'https://streamify-mu-ten.vercel.app/'
+  },
   {
     title: 'AI-code Debugger',
     description: 'Stressed in debugging code? Try this Ai Code debugging tool now..',
